@@ -11,28 +11,28 @@ class Senai{
   }
 
   dadosEscola() {
-      console.log('\n=== RELATÓRIO DE CADASTRO: ${this.cidade.toUpperCase()} ===');
-      console.log('- Código: ${this.codigo}');
-      console.log('- Fundação: ${this.anoConstruçao} (${this.idade} anos de história'));
-      console.log('Capacidade: ${this.qtdeCursos} cursos ativos.');
-      console.log('=========================================\n');
+      console.log(`\n=== RELATÓRIO DE CADASTRO: ${this.cidade.toUpperCase()} ===`);
+      console.log(`- Código: ${this.codigo}`);
+      console.log(`- Fundação: ${this.anoConstruçao} (${this.idade} anos de história)`);
+      console.log(`Capacidade: ${this.qtdeCursos} cursos ativos.`);
+      console.log(`=========================================\n`);
   }
 }
 
   abrirEscola = () => {
       this.statusFuncinonamento = true
-      console.log('\n === UNIDADE: ${this.cidade} ===')
-      console.log('Status Atual: ABERTO')
-      console.log('Idade: ${this.idade} | Cursos: ${this.qtdeCursos}')
-      console.log('O SENAI ${this.cidade} agora está ABERTO. Bem-vindos!');
+      console.log(`\n === UNIDADE: ${this.cidade} ===`)
+      console.log(`Status Atual: ABERTO`)
+      console.log(`Idade: ${this.idade} | Cursos: ${this.qtdeCursos}`)
+      console.log(`O SENAI ${this.cidade} agora está ABERTO. Bem-vindos!`);
   }
 
   fecharEscola = () => {
       this.statusFuncionamento = false
-      console.log('\n === UNIDADE: ${this.cidade} ===')
-      console.log('Status Atual: FECHADO')
-      console.log('Idade: ${this.idade} | Cursos: ${this.qtdeCursos}')
-      console.log('O SENAI ${this.cidade} agora está fechado. Até amanhã!');
+      console.log(`\n === UNIDADE: ${this.cidade} ===`)
+      console.log(`Status Atual: FECHADO`)
+      console.log(`Idade: ${this.idade} | Cursos: ${this.qtdeCursos}`)
+      console.log(`O SENAI ${this.cidade} agora está fechado. Até amanhã!`);
   }
 
   
